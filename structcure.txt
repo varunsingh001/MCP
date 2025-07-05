@@ -1,0 +1,14 @@
+mcp-multiagent/
+├── requirements.txt
+├── config.py
+├── mcp_server.py
+├── orchestrator.py
+├── tools/
+│   ├── __init__.py
+│   ├── base_tool.py
+│   ├── databricks_tool.py
+│   └── sybase_tool.py
+├── agents/
+│   ├── __init__.py
+│   └── openai_agent.py
+└── app.py
